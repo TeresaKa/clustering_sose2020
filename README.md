@@ -30,7 +30,7 @@ Präsentation:
 - Genres Verteilung: Genre1 (am häufigsten der Band zugeordnet), Genre2 (am zweithäufigsten zugeordnet) 
 
 
-- PCA, TSNE, UMAP für Lyrics: keine gute Verteilung für PCA, ein paar Cluster aber nicht nach Gerne (Wonach?! --> Ziel herauszufinden) bei TSNE (perplexity=50); ...
+- PCA, TSNE, UMAP für Lyrics: keine gute Verteilung für PCA, ein paar Cluster aber nicht nach Gerne (Wonach?! --> Ziel herauszufinden) bei TSNE (perplexity=50); UMAP (metric= "cosine")...
 
 - PCA, TSNE, UMAP für POS: PCA verwirrend/ konnten Ergebnis nicht so gut interpretieren;
 
