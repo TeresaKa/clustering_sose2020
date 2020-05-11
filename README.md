@@ -37,3 +37,20 @@ Präsentation:
 - 50 Most Frequent Words: nach Genres --> ist ein Unterschied zu erkennen?
 
 nach Genre balancieren? Songlängen anpassen?
+
+
+KMeans:
+
+- Visualisierung für je PCA, t-SNE, Umap (Teresa) für text und POS
+
+- Clusteranzahl erstmal k=10; dann nach Ellenbogen/ Silhouette (Viktoria)
+
+- häufigste Features/ Wörter (Julia)
+
+- Gif über KMeans-Iterationen hinweg (Teresa)
+
+- Attribute von KMeans austesten --> Visualisierungsmöglichkeiten? (Timo)
+
+- kurze Beschreibung in Notebook oben
+
+Zoom-Meeting: Mittwoch 10 Uhr
