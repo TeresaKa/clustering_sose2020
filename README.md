@@ -51,7 +51,7 @@ es sieht so aus, als wären es mehr als 10 Cluster
 nach Genre balancieren wäre wahrscheinlich sinnvoll, aber das wissen wir ja eigentlich gar nicht?!
 
 -------------------------------------------------------------------------------------------------------------------------------
-Aufgabeverteilung:
+Aufgabenverteilung:
 
 KMeans:
 
