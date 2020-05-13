@@ -34,7 +34,9 @@ Präsentation:
 
 - PCA, TSNE, UMAP für POS: PCA verwirrend/ konnten Ergebnis nicht so gut interpretieren;
 
-- 50 Most Frequent Words: nach Genres --> ist ein Unterschied zu erkennen?
+- 50 Most Frequent Words: nach Genres --> ist ein Unterschied zu erkennen? evtl Pop/ Rock raus? aber dann verfälscht/ zu viel eingegriffen?
+
+- Wordclouds: diese Genres sind eindeutiger?
 
 nach Genre balancieren? Songlängen anpassen?
 
@@ -54,3 +56,30 @@ KMeans:
 - kurze Beschreibung in Notebook oben
 
 Zoom-Meeting: Mittwoch 10 Uhr
+
+
+Präsentation, 14. Mai:
+
+- KMeans: PCA mit eigener und Scikit Implementierung, 10 Cluster
+
+- K-Means Lyrics: mit K-Means von scikit learn berechnet; PCA, t-SNE, UMAP --> UMAP am besten, aber nicht eindeutig
+
+- K-Means POS: PCA, t-SNE, UMAP --> t-SNE am vielversprechendsten
+es sieht so aus, als wären es mehr als 10 Cluster
+
+- Anzahl der Cluster: range 1 bis 20 getestet, Ellenbogenmethode, Silhouette sagen 15 ...  Silhouetten-Koeffizient um null, nicht optimal zugeordnete Cluster, aber auch nicht ganz schlecht (also bei -1)
+
+- t-SNE mit k=15: Text und POS, eher schlecht
+
+- MiniBatch: ausprobiert TSNE, bestes Ergebnis mit POS; unterschiedliche cluster teilweise, z.B. oben Mitte; aber auch ähnlich teilweise; kmeans++ besser
+
+- t-SNE mit Scikit-Learn und Genres: hier wieder mit 10 Clustern, eindeutiger
+
+- Features in Cluster: häufigste Features per Cluster
+
+nach Genre balancieren wäre wahrscheinlich sinnvoll, aber das wissen wir ja eigentlich gar nicht?!
+
+
+TODO: häufigste Features, sklearn+Genre mit neuer Clusterzahl, t-SNE mit k=??
+
+tfidf für text und POS abspeichern

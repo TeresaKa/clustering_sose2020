@@ -11,12 +11,13 @@ from scipy.spatial import distance
 
 path = "songs_25.csv"
 k = 8 # input number of clusters 2 - 10
-iterations = ... # number of new initialisations of mü; 50 - 1000
-c = ... #index of k
+iterations = ... # number of improvements of cluster
+ini = ...# number of new initialisations of mü; 50 - 1000
 
 
 def prepare_data(path):
     songs = pd.read_csv(path)
+    songs = songs[:100]  #löschen!!
     data = songs['text']
     tf_idf_vectorizer = TfidfVectorizer()
     tf_idf = tf_idf_vectorizer.fit_transform(data)
@@ -34,9 +35,7 @@ def initialise_centroids(k):
         mü[i] = list(centroids[i])
     return mü, array
 
-
-def assign_clusters():
-    mü, array = initialise_centroids(k)
+def assign_clusters(mü):
     clustering_step = {}
     for x in array:
         distances_dic={}
@@ -47,33 +46,40 @@ def assign_clusters():
         best_cluster = list(distances_dic.keys())[list(distances_dic.values()).index(minimum)]
 
         if best_cluster in clustering_step.keys():
-            clustering_step[best_cluster].append(x)
+            clustering_step[best_cluster].append(list(x))
         else:
-            clustering_step[best_cluster] = x
+            clustering_step[best_cluster] = list(x)
 
     return clustering_step
 
-print(assign_clusters())
-# def improve_clusters():
-#     compare = {}
-#     for key, values in clustering_step:
-#         if clustering_step[key] == compare[key]:  #bzw. set(l1).union ...etc.
-#             break
-#         else:
-#             compare = clustering_step
-#             for i in k:
-#                 mü[i] = mean(clustering_step[i])
-#                 assign_clusters()(mü)
+
+def improve_clusters(clustering_step):
+    for i in k:
+        mü[i] = mean(clustering_step[i])
+    return mü
+
+
+def compare_results():
+    for key, values in clustering_step.items():
+        #if clustering_step[key] == compare[key]:
+        union = set(clustering_step[key]).union(set(compare[key]))
+        intersection = set(clustering_step[key]).intersection(set(compare[key]))
+        if union - intersection == set():
+            break
+        else:
+            compare = clustering_step
+    return compare
 #
 # #Schleife mit für Neuinitialisierungen
+
+# compare = {}
 # for i in iterations:
-#     # assign_clusters()
-#     # impr = improve_clusters()
-#     clusterings[i] = impr
-#     #calculate best model
+#     if i==0:
+#         mü, array = initialise_centroids(k)
+#         compare = assign_clusters(mü)
+#     else:
+#         mü = improve_clusters()
+#         clustering_step = assign_clusters(mü)
+#         clusterings[i] = impr
+    #calculate best model
 #
-# # l1 = [1,2,3,4]
-# # l2 = [2,3,4,1]
-# #
-# # if set(l1).union(set(l2))-set(l1).intersection(set(l2)) == set():
-# #     print("None")
