@@ -4,7 +4,7 @@ Repository für Clusteringkurs SoSe 2020
 Präsentation:
 - erst unbalanciert: 643 Bands, 57.650 Songs, alle mit weniger als 60 Songs raus unterschiedlich viele Songs pro Band 
 
-- Metadaten: Bandname, Songname, URl, Songtext, Genre (selber gescraped - Multilabel), Erscheinungsjahr von Songs???
+- Metadaten: Bandname, Songname, URL, Songtext, Genre (selber gescraped - Multilabel), Erscheinungsjahr von Songs???
 
 - Text bearbeiten: Chorus, Linetags, Satzzeichen;
 
