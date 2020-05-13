@@ -1,15 +1,6 @@
 # clustering_sose2020
 Repository für Clusteringkurs SoSe 2020
-
-Timo: Kuchendiagramme, UMAP farblich markieren, Literatur
-
-Teresa: NGramm, Part of Speech Tags,
-
-Julia: Datensatz verkleinern --> Nach einer bestimmten Anzahl von Bands und Liedern. 
-
-Mittwoch, 06.05.2020: Zoom-Meeting um 10 --> Kurze PPP mit Grafiken zusammenstellen. 
-
-
+-------------------------------------------------------------------------------------------------------------------------------
 Präsentation:
 - erst unbalanciert: 643 Bands, 57.650 Songs, alle mit weniger als 60 Songs raus unterschiedlich viele Songs pro Band 
 
@@ -40,26 +31,6 @@ Präsentation:
 
 nach Genre balancieren? Songlängen anpassen?
 
-
-KMeans:
-
-- Visualisierung für je PCA, t-SNE, Umap (Teresa) für text und POS
-
-- Clusteranzahl erstmal k=10; dann nach Ellenbogen/ Silhouette (Viktoria)
-
-- häufigste Features/ Wörter (Julia)
-
-- Gif über KMeans-Iterationen hinweg (Teresa)
-
-- Attribute von KMeans austesten --> Visualisierungsmöglichkeiten? (Timo)
-
-- kurze Beschreibung in Notebook oben
-
-Zoom-Meeting: Mittwoch 10 Uhr
-
-
-Präsentation, 14. Mai:
-
 - KMeans: PCA mit eigener und Scikit Implementierung, 10 Cluster
 
 - K-Means Lyrics: mit K-Means von scikit learn berechnet; PCA, t-SNE, UMAP --> UMAP am besten, aber nicht eindeutig
@@ -79,6 +50,24 @@ es sieht so aus, als wären es mehr als 10 Cluster
 
 nach Genre balancieren wäre wahrscheinlich sinnvoll, aber das wissen wir ja eigentlich gar nicht?!
 
+-------------------------------------------------------------------------------------------------------------------------------
+Aufgabeverteilung:
+
+KMeans:
+
+- Visualisierung für je PCA, t-SNE, Umap (Teresa) für text und POS
+
+- Clusteranzahl erstmal k=10; dann nach Ellenbogen/ Silhouette (Viktoria)
+
+- häufigste Features/ Wörter (Julia)
+
+- Gif über KMeans-Iterationen hinweg (Teresa)
+
+- Attribute von KMeans austesten --> Visualisierungsmöglichkeiten? (Timo)
+
+- kurze Beschreibung in Notebook oben
+
+Zoom-Meeting: Donnerstag 9 Uhr
 
 TODO: häufigste Features, sklearn+Genre mit neuer Clusterzahl, t-SNE mit k=??
 
