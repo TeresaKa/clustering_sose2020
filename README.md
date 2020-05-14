@@ -53,22 +53,11 @@ nach Genre balancieren wäre wahrscheinlich sinnvoll, aber das wissen wir ja eig
 -------------------------------------------------------------------------------------------------------------------------------
 Aufgabenverteilung:
 
-KMeans:
+- POS --> Verben hinzufügen
+- SVM + Confusion Matrix
+- Jahreszahlen der Songs hinzufügen
+- Nach 3 Genre Clustern --> Zum Probieren Pop und Rock rausnehmen. 
+- Dimensionreduktion immer erst danach anwenden --> PCA immer verwenden + richtige Reihenfolge
+- Ellenbogenmethode + Silhoutten-Koeffizient
+- ABBA, Black Sabbath, Bob Dylan Clustern
 
-- Visualisierung für je PCA, t-SNE, Umap (Teresa) für text und POS
-
-- Clusteranzahl erstmal k=10; dann nach Ellenbogen/ Silhouette (Viktoria)
-
-- häufigste Features/ Wörter (Julia)
-
-- Gif über KMeans-Iterationen hinweg (Teresa)
-
-- Attribute von KMeans austesten --> Visualisierungsmöglichkeiten? (Timo)
-
-- kurze Beschreibung in Notebook oben
-
-Zoom-Meeting: Donnerstag 9 Uhr
-
-TODO: häufigste Features, sklearn+Genre mit neuer Clusterzahl, t-SNE mit k=??
-
-tfidf für text und POS abspeichern
