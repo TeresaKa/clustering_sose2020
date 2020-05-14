@@ -53,10 +53,10 @@ nach Genre balancieren wäre wahrscheinlich sinnvoll, aber das wissen wir ja eig
 -------------------------------------------------------------------------------------------------------------------------------
 Aufgabenverteilung:
 
-- POS --> Verben hinzufügen
-- SVM + Confusion Matrix
-- Jahreszahlen der Songs hinzufügen
-- Nach 3 Genre Clustern --> Zum Probieren Pop und Rock rausnehmen. 
+- POS --> Verben hinzufügen (Teresa)
+- SVM + Confusion Matrix (Timo)
+- Jahreszahlen der Songs hinzufügen (Viktoria/Julia)
+- Nach 3 Genre Clustern --> Zum Probieren Pop und Rock rausnehmen. (Teresa)
 - Dimensionreduktion immer erst danach anwenden --> PCA immer verwenden + richtige Reihenfolge
 - Ellenbogenmethode + Silhoutten-Koeffizient
 - ABBA, Black Sabbath, Bob Dylan Clustern
