@@ -50,6 +50,12 @@ es sieht so aus, als wären es mehr als 10 Cluster
 
 nach Genre balancieren wäre wahrscheinlich sinnvoll, aber das wissen wir ja eigentlich gar nicht?!
 
+- neuer Datensatz: Jahreszahlen gescraped, deutlich verkleinert, POS mit Adjektiven, Verben und Substantiven; nur noch 40.000 Songs
+
+- SVM: Confusionmatrix mit POS; Pop sehr schlecht zugeordnet, Pop und Reggae anscheinend sehr ähnlich, Funk sehr gut zuzuordnen, HipHop sehr schlecht, obwohl es beim Clustering besser ist
+
+- KMeans mit kleineren Teildatensätzen, z.B. alle Genres außer Pop und Rock: HipHop gut abgrenzbar
+
 -------------------------------------------------------------------------------------------------------------------------------
 Aufgabenverteilung:
 
