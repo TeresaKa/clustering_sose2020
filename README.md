@@ -59,11 +59,9 @@ nach Genre balancieren wäre wahrscheinlich sinnvoll, aber das wissen wir ja eig
 -------------------------------------------------------------------------------------------------------------------------------
 Aufgabenverteilung:
 
-- POS --> Verben hinzufügen (Teresa)
-- SVM + Confusion Matrix (Timo)
-- Jahreszahlen der Songs hinzufügen (Viktoria/Julia)
-- Nach 3 Genre Clustern --> Zum Probieren Pop und Rock rausnehmen. (Teresa)
-- Dimensionreduktion immer erst danach anwenden --> PCA immer verwenden + richtige Reihenfolge
-- Ellenbogenmethode + Silhoutten-Koeffizient
-- ABBA, Black Sabbath, Bob Dylan Clustern
+- Grafik, Tokenanzahl pro Song, dann Verteilung visualisieren.(Teresa)
+- längere Texte, dann in SVM (Timo)
+- hierarchisches Clustering (Timo+Viktoria)
+- häufiste Wörter pro Genre, nur Country + HipHop nehmen --> Hierarchisches CLustering (Julia)
+- Alternativ: Word-Embeddings 
 
