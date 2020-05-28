@@ -63,5 +63,6 @@ Aufgabenverteilung:
 - längere Texte, dann in SVM (Timo)
 - hierarchisches Clustering (Timo+Viktoria)
 - häufiste Wörter pro Genre, nur Country + HipHop nehmen --> Hierarchisches CLustering (Julia)
+- Untergenre z.B. von Pop ausgeben lassen (Julia)
 - Alternativ: Word-Embeddings 
 
