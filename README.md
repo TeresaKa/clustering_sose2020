@@ -102,3 +102,5 @@ Präsentation Donnerstag, 4.6.2020
 35-38: Julia 
 
 38-  : Viktoria 
+
+40: Julia 
