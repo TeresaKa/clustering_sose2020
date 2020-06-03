@@ -66,3 +66,26 @@ Aufgabenverteilung:
 - Untergenre z.B. von Pop ausgeben lassen (Julia)
 - Alternativ: Word-Embeddings 
 
+--------------------------------------------------------------------------------------------------------------------------------
+Präsentation Donnerstag, 4.6.2020
+
+25: neuer Datensatz -> Bandnamen geändert und angepasst, Jahreszahlen für jeden Song gescraped -> neues Ergebnis
+    Spotify neue Genre ausgeben lassen -> wird feiner, detaillierter unterteilt, vor allem Pop und Rock
+26: Kreisdiagramme: Rock alternativ, Album-Rock / Pop Dance-pop usw -> neu anpassen -> größten Subgenre nehmen?
+27: SVM: Datensatz: überdurchschnittlich lange Texte -> leider keine Diagonale 
+    Klassik werden noch viele andere Songs zugeteilt, aus Country und Latin 
+    
+28 u. 29: ähneln sich HipHop fällt raus und die anderen ähneln sich 
+30: pop und rock weg 
+31-33: länger als Durschnitt 
+34: type-token: überdurchschnittliche Texte
+35: HC -> Eminem und Abba -> viele Cluster 
+36: HC ausprobiert und Grafiken einfach mal zeigen :D
+37: - " - 
+38: Code HC - Vergleich 
+
+25-26: Julia
+27-29: Timo
+30-34: Teresa
+35-38: Julia 
+38-  : Viktoria 
