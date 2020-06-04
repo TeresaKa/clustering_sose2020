@@ -91,8 +91,6 @@ Präsentation Donnerstag, 4.6.2020
 
 37: - " - 
 
-38: Code HC - Vergleich 
-
 25-26: Julia
 
 27-29: Timo
@@ -103,4 +101,4 @@ Präsentation Donnerstag, 4.6.2020
 
 38-42  : Viktoria 
 
-43-44: Julia 
+43-44: Julia -> Code HC - Vergleich und Überlegungen 
