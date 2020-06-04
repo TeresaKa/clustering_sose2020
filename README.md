@@ -102,3 +102,10 @@ Präsentation Donnerstag, 4.6.2020
 38-42  : Viktoria 
 
 43-44: Julia -> Code HC - Vergleich und Überlegungen 
+
+--------------------------------------------------------------------------------------------------------------------------------
+Aufgabenverteilung:
+
+- neuer Datensatz -> Bands in eine Datei 
+
+- ... 
