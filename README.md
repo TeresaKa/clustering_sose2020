@@ -104,8 +104,7 @@ Präsentation Donnerstag, 4.6.2020
 43-44: Julia -> Code HC - Vergleich und Überlegungen 
 
 --------------------------------------------------------------------------------------------------------------------------------
-Aufgabenverteilung:
+Präsentation für Donnerstag 18.6.2020:
 
-- neuer Datensatz -> Bands in eine Datei 
-
-- ... 
+- Datensatz verändert: alle Songs einer Band pro Jahrzehnt zusammgenfasst -> 1000-2000 tokens 
+- Folie 45: Verteilung der Bands in Dekaden/ Länge der "Songtexte"
