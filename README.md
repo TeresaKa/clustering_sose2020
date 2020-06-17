@@ -107,4 +107,10 @@ Präsentation Donnerstag, 4.6.2020
 Präsentation für Donnerstag 18.6.2020:
 
 - Datensatz verändert: alle Songs einer Band pro Jahrzehnt zusammgenfasst -> 1000-2000 tokens 
+
 - Folie 45: Verteilung der Bands in Dekaden/ Länge der "Songtexte"
+
+- Folie 46: SVM: Genre1 als Label und Feautures: decades und text hat am besten funktioniert ... verschiedene Feautures, f1-scores bei den 3 Genres HipHop, Jazz und Country am besten -> report 
+
+- Folie 47: 3 Genre + Electronic -> HC 2000 ---> 5 Cluster 
+            
