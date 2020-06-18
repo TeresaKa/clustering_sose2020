@@ -113,4 +113,14 @@ Präsentation für Donnerstag 18.6.2020:
 - Folie 46: SVM: Genre1 als Label und Feautures: decades und text hat am besten funktioniert ... verschiedene Feautures, f1-scores bei den 3 Genres HipHop, Jazz und Country am besten -> report 
 
 - Folie 47: 3 Genre + Electronic -> HC 2000 ---> 5 Cluster 
-            
+--------------------------------------------------------------------------------------------------------------------------------
+
+Teresa: GMM
+
+Timo: DBSCAN
+
+Julia: 4 Genre aus allen Dekaden und mit allen Genren -> HC & GMM, BIC & AIC
+
+Viktoria: HC -> Bands, die Beziehungen haben ... Vanilla in Electronic .. evtl Beziehungen zwischen den Künstlern, evtl Beats 
+
+Wörter von 2000-2010 anschauen, Verhältnis types und tokens für jede Dekade -> für die Präsentation 
