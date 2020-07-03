@@ -124,3 +124,30 @@ Julia: 4 Genre aus allen Dekaden und mit allen Genren -> HC & GMM, BIC & AIC
 Viktoria: HC -> Bands, die Beziehungen haben ... Vanilla in Electronic .. evtl Beziehungen zwischen den Künstlern, evtl Beats 
 
 Wörter von 2000-2010 anschauen, Verhältnis types und tokens für jede Dekade -> für die Präsentation 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- HC nach genre1 & decdades (Viktoria) 
+
+- evtl. ein weiteres Verfahren 
+
+- topic modelling / LDA -> Mallet & Gensim https://radimrehurek.com/gensim/models/wrappers/ldamallet.html (Mallet: Julia & Viktoria) ( Gensim: Teresa & Timo)
+
+- gif nach Dekaden -> Komplexität der Texte (Teresa) 
+
+- K-Means mit neuem Datensatz/ 4 Genre (Julia) & t-SNE mit den 4 Genre (Julia)
+
+- UMAP 
+
+- autoencoder (Timo) 
+
+- Ordner aufräumen/ Notebooks kommentieren 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Präsentation:
+
+- GMM, HC und evtl topic modelling gut, da ....
+
+- die Verfahren, die nicht so gut waren nur kurz
