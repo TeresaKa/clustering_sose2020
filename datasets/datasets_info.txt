@@ -1,0 +1,16 @@
+pop_genre1_2.csv:     			beinhaltet genre1 und genre2 mit pop gezählt: 					45 Einträge
+rock_genre1_2.csv:    			beinhaltet genre1 und genre1 mit rock gezählt: 					117 Einträge
+sample_25percent.csv: 			ist ein sample vom ganzen Datensatz und number of tokens			12708 Songs
+songs_longtexts.csv:  			beinhaltet alle überdurchschnittlich langen Texte, + decades			13300 Songs
+songtexte_bereinigt_gekuerzt.csv 	alle unnötigen Zeichen entfernt und alle Artists mit weniger als 60 Songs	50832 Songs
+
+songs_25.csv: 				25 Songs pro Artist mit Genre1 und Genre2					6800 Songs
+songs_100.csv: 				100 Songs pro Artist mit Genre1 und Genre2					27200 Songs
+
+discogs_dates.xlsx			beinhaltet gescrapte Jahreszahlen von Discogs
+discogs_id.xlsx				beinhaltet ids für Artist
+
+songdata.csv				beinhaltet genre1 und genre2 gescrapt						57650 Songs						
+songs_plus_dates.csv 			beinhaltet alle Jahreszahlen und decades von Spotify 				334400 Songs
+
+song_decades_long.csv             	beinhaltet alle überdurschnittlichen Texte nach Dekaden zusammengefasst 	1038 Songs
