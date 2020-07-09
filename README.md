@@ -143,6 +143,12 @@ Wörter von 2000-2010 anschauen, Verhältnis types und tokens für jede Dekade -
 
 - Ordner aufräumen/ Notebooks kommentieren 
 
+- Notebooks: DBscan & GMM -> Teresa
+             K-Means -> Julia
+             SVM, TM, autoencoder -> Timo
+             HC -> Vika 
+             
+  MEETING: SUNDAY 10am :) 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
