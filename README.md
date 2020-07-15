@@ -1,159 +1,112 @@
-# clustering_sose2020
-Repository für Clusteringkurs SoSe 2020
--------------------------------------------------------------------------------------------------------------------------------
-Präsentation:
-- erst unbalanciert: 643 Bands, 57.650 Songs, alle mit weniger als 60 Songs raus unterschiedlich viele Songs pro Band 
+Herzlich Willkommen in unserem GitHub-Repository
+Der Datensatz und die verschiedenen Clustering-Verfahren sind in Ordner unterteilt und wie folgt aufgebaut:
+Literatur: Dieser Ordner beinhaltet verschieden Dokumente
+-	HC: hier werden die Beziehungen zwischen den Genres und Künstlern erklärt, die für die Ausreißer benötigt wurden
+-	Visualization_in_Stylometry
+-	Topic-modelling-with-scikitlearn
+datasets: Dieser Ordner wird in zwei Unterordner unterteilt. Beide Unterordner enthalten Datensätze. Im ersten Unterordner findet man den aktuellen Datensatz. Der zweite Unterordner ist widerum in weitere Ordner unterteilt, die die Datenexplorationen enthalten und die Veränderung des Datensatzes zeigen. Informationen zu der Veränderung des Datensatzes findet man in der Textdatei.
+-	Currently_dataset 
+o	song_decades_long.csv
+
+-	Old_datasets
+o	Datenexploration_1
+	pop_genre1_2.csv 
+	rock_genre1_2.csv 
+	sample_25percent.csv 
+	songs_longtexts.csv 
+	songtexte_bereinigt_gekuerzt.csv 
+
+o	Datenexploration_2
+	songs_100.csv 
+	songs_25.xlsx 
+
+o	Discogs
+	discogs_dates.xlsx 
+	discogs_id.xlsx 
+
+o	Spotify
+	songdata.csv 
+	songdata.xlsx 
+	songs_decades.csv 
+	songs_plus_dates.csv 
+
+ 
+Images: 
+-	Bilder_Abschlusspräsi 
+o	AutoEncoder 
+o	GMM 
+o	preprocessing 
+o	wordcoluds 
+
+-	Dataexploration_1 
+o	1_number_of_songs 
+o	2_wordsclouds 
+	wordclouds_by_artist 
+	wordclouds_by_genre 
+o	3_number_of_words 
+o	5_type_token 
+o	6_length_of_songs 
+o	song_decades_long 
+
+-	Dataexploration_2 
+o	2_Visualisierung 
+	Genres
+o	3_common_words 
+	POS 
+	text 
+
+-	Dimensionsreduktion 
+o	PCA 
+	MDS
+
+o	T-SNE 
+	song_decades_long
+
+o	UMAP 
+
+-	GMM 
+o	song_decades_long
+
+-	HC 
+o	song_decades_long
+
+-	K-Means/K_Means 
+o	1_K-Means -- versch. Implementierungen 
+o	2_K-Means -- minibatch 
+o	3_K-Means -- Genres
+	song_decades_long- Genres 
+o	4_K-Means -- gif 
+o	5_K-Means --decades 
+-	
+-	Preprocessing 
+
+Notebooks: 
+-	.ipynb_checkpoints 
+-	0_preprocessing 
+-	1_KMeans 
+o	Dimensionsreduktion 
+	umap
+
+o	Implementierung_K-Means 
+o	K_Means 
+
+-	2_SVM 
+o	SVM_KM 
+-	
+-	3_HC 
+-	4_GMM 
+-	5_DBScan 
+-	6_TopicModeling 
+o	mallet_text
+-	7_AutoEncoder 
+-	Final AutoEncoder 
+-	Clustering_Verfahren .ipynb 
+-	Final AutoEncoder 
+-	word_embedding.ipynb 
 
-- Metadaten: Bandname, Songname, URL, Songtext, Genre (selber gescraped - Multilabel), Erscheinungsjahr von Songs???
 
-- Text bearbeiten: Chorus, Linetags, Satzzeichen;
+.gitattributes
+Aufgabenverteilung
+README.md
 
-- Part-of-Speech Tagging: Substantive und Adjektive 
 
-- PCA, UMAP, TSNE, 3 Graphiken nebeneinander --> nicht viel zu erkennen
-
---> Bands mit weniger als 100 Songs raus; 25 Songs pro Band, 272 Bands, 6800 Songs
-
-- Folie "Datensatz anpassen":  Songlänge pro Band Fragen: Songlänge anpassen/ abschneiden?
-
-- Songlänge pro Genre
-
-- Genres Verteilung: Genre1 (am häufigsten der Band zugeordnet), Genre2 (am zweithäufigsten zugeordnet) 
-
-
-- PCA, TSNE, UMAP für Lyrics: keine gute Verteilung für PCA, ein paar Cluster aber nicht nach Gerne (Wonach?! --> Ziel herauszufinden) bei TSNE (perplexity=50); UMAP (metric= "cosine")...
-
-- PCA, TSNE, UMAP für POS: PCA verwirrend/ konnten Ergebnis nicht so gut interpretieren;
-
-- 30 Most Frequent Words: nach Genres --> ist ein Unterschied zu erkennen? evtl Pop/ Rock raus? aber dann verfälscht/ zu viel eingegriffen?
-
-- Wordclouds: diese Genres sind eindeutiger?
-
-nach Genre balancieren? Songlängen anpassen?
-
-- KMeans: PCA mit eigener und Scikit Implementierung, 10 Cluster
-
-- K-Means Lyrics: mit K-Means von scikit learn berechnet; PCA, t-SNE, UMAP --> t-SNE am besten, aber nicht eindeutig
-
-- K-Means POS: PCA, t-SNE, UMAP --> t-SNE am vielversprechendsten
-es sieht so aus, als wären es mehr als 10 Cluster
-
-- Anzahl der Cluster: range 1 bis 20 getestet, Ellenbogenmethode, Silhouette sagen 15 ...  Silhouetten-Koeffizient um null, nicht optimal zugeordnete Cluster, aber auch nicht ganz schlecht (also bei -1)
-
-- t-SNE mit k=15: Text und POS, eher schlecht
-
-- MiniBatch: ausprobiert TSNE, bestes Ergebnis mit POS; unterschiedliche cluster teilweise, z.B. oben Mitte; aber auch ähnlich teilweise; kmeans++ besser
-
-- t-SNE mit Scikit-Learn und Genres: hier wieder mit 15 Clustern, eindeutiger
-
-- Features in Cluster: häufigste Features per Cluster
-
-nach Genre balancieren wäre wahrscheinlich sinnvoll, aber das wissen wir ja eigentlich gar nicht?!
-
-- neuer Datensatz: Jahreszahlen gescraped, deutlich verkleinert, POS mit Adjektiven, Verben und Substantiven; nur noch 40.000 Songs
-
-- SVM: Confusionmatrix mit POS; Pop sehr schlecht zugeordnet, Pop und Reggae anscheinend sehr ähnlich, Funk sehr gut zuzuordnen, HipHop sehr schlecht, obwohl es beim Clustering besser ist
-
-- KMeans mit kleineren Teildatensätzen, z.B. alle Genres außer Pop und Rock: HipHop gut abgrenzbar
-
--------------------------------------------------------------------------------------------------------------------------------
-Aufgabenverteilung:
-
-- Grafik, Tokenanzahl pro Song, dann Verteilung visualisieren.(Teresa)
-- längere Texte, dann in SVM (Timo)
-- hierarchisches Clustering (Timo+Viktoria)
-- häufiste Wörter pro Genre, nur Country + HipHop nehmen --> Hierarchisches CLustering (Julia)
-- Untergenre z.B. von Pop ausgeben lassen (Julia)
-- Alternativ: Word-Embeddings 
-
---------------------------------------------------------------------------------------------------------------------------------
-Präsentation Donnerstag, 4.6.2020
-
-25: neuer Datensatz -> Bandnamen geändert und angepasst, Jahreszahlen für jeden Song gescraped -> neues Ergebnis
-    Spotify neue Genre ausgeben lassen -> wird feiner, detaillierter unterteilt, vor allem Pop und Rock
-    
-26: Kreisdiagramme: Rock alternativ, Album-Rock / Pop Dance-pop usw -> neu anpassen -> größten Subgenre nehmen?
-
-27: SVM: Datensatz: überdurchschnittlich lange Texte -> leider keine Diagonale 
-    Klassik werden noch viele andere Songs zugeteilt, aus Country und Latin 
-    
-28 u. 29: ähneln sich HipHop fällt raus und die anderen ähneln sich 
-
-30: pop und rock weg 
-
-31-33: länger als Durschnitt 
-
-34: type-token: überdurchschnittliche Texte
-
-35: HC -> Eminem und Abba -> viele Cluster 
-
-36: HC ausprobiert und Grafiken einfach mal zeigen :D
-
-37: - " - 
-
-25-26: Julia
-
-27-29: Timo
-
-30-34: Teresa
-
-35-38: Julia 
-
-38-42  : Viktoria 
-
-43-44: Julia -> Code HC - Vergleich und Überlegungen 
-
---------------------------------------------------------------------------------------------------------------------------------
-Präsentation für Donnerstag 18.6.2020:
-
-- Datensatz verändert: alle Songs einer Band pro Jahrzehnt zusammgenfasst -> 1000-2000 tokens 
-
-- Folie 45: Verteilung der Bands in Dekaden/ Länge der "Songtexte"
-
-- Folie 46: SVM: Genre1 als Label und Feautures: decades und text hat am besten funktioniert ... verschiedene Feautures, f1-scores bei den 3 Genres HipHop, Jazz und Country am besten -> report 
-
-- Folie 47: 3 Genre + Electronic -> HC 2000 ---> 5 Cluster 
---------------------------------------------------------------------------------------------------------------------------------
-
-Teresa: GMM
-
-Timo: DBSCAN
-
-Julia: 4 Genre aus allen Dekaden und mit allen Genren -> HC & GMM, BIC & AIC
-
-Viktoria: HC -> Bands, die Beziehungen haben ... Vanilla in Electronic .. evtl Beziehungen zwischen den Künstlern, evtl Beats 
-
-Wörter von 2000-2010 anschauen, Verhältnis types und tokens für jede Dekade -> für die Präsentation 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-- HC nach genre1 & decdades (Viktoria) 
-
-- evtl. ein weiteres Verfahren 
-
-- topic modelling / LDA -> Mallet & Gensim https://radimrehurek.com/gensim/models/wrappers/ldamallet.html (Mallet: Julia & Viktoria) ( Gensim: Teresa & Timo)
-
-- gif nach Dekaden -> Komplexität der Texte (Teresa) 
-
-- K-Means mit neuem Datensatz/ 4 Genre (Julia) & t-SNE mit den 4 Genre (Julia)
-
-- UMAP 
-
-- autoencoder (Timo) 
-
-- Ordner aufräumen/ Notebooks kommentieren 
-
-- Notebooks: DBscan & GMM -> Teresa
-             K-Means -> Julia
-             SVM, TM, autoencoder -> Timo
-             HC -> Vika 
-             
-  MEETING: SUNDAY 10am :) 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Präsentation:
-
-- GMM, HC und evtl topic modelling gut, da ....
-
-- die Verfahren, die nicht so gut waren nur kurz
