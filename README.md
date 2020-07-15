@@ -95,25 +95,38 @@ o	Dimensionsreduktion
 	umap
 
 o	Implementierung_K-Means 
+
 o	K_Means 
 
 -	2_SVM 
+
 o	SVM_KM 
--	
+
 -	3_HC 
+
 -	4_GMM 
+
 -	5_DBScan 
+
 -	6_TopicModeling 
+
 o	mallet_text
+
 -	7_AutoEncoder 
+
 -	Final AutoEncoder 
+
 -	Clustering_Verfahren .ipynb 
+
 -	Final AutoEncoder 
+
 -	word_embedding.ipynb 
 
 
 .gitattributes
+
 Aufgabenverteilung
+
 README.md
 
 
