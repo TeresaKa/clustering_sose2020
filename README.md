@@ -11,9 +11,13 @@ o	song_decades_long.csv
 -	Old_datasets
 o	Datenexploration_1
 	pop_genre1_2.csv 
+
 	rock_genre1_2.csv 
+
 	sample_25percent.csv 
+
 	songs_longtexts.csv 
+
 	songtexte_bereinigt_gekuerzt.csv 
 
 o	Datenexploration_2
