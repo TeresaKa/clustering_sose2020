@@ -1,10 +1,13 @@
 Herzlich Willkommen in unserem GitHub-Repository
 Der Datensatz und die verschiedenen Clustering-Verfahren sind in Ordner unterteilt und wie folgt aufgebaut:
+
 Literatur: Dieser Ordner beinhaltet verschieden Dokumente
 -	HC: hier werden die Beziehungen zwischen den Genres und Künstlern erklärt, die für die Ausreißer benötigt wurden
 -	Visualization_in_Stylometry
 -	Topic-modelling-with-scikitlearn
+
 datasets: Dieser Ordner wird in zwei Unterordner unterteilt. Beide Unterordner enthalten Datensätze. Im ersten Unterordner findet man den aktuellen Datensatz. Der zweite Unterordner ist widerum in weitere Ordner unterteilt, die die Datenexplorationen enthalten und die Veränderung des Datensatzes zeigen. Informationen zu der Veränderung des Datensatzes findet man in der Textdatei.
+
 -	Currently_dataset 
 o	song_decades_long.csv
 
