@@ -71,10 +71,10 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
         - song_decades_long- Genres 
     - 4_K-Means -- gif 
     - 5_K-Means --decades 
--**Preprocessing** 
+- **Preprocessing** 
 
 ### **Notebooks**: 
--.ipynb_checkpoints 
+	-.ipynb_checkpoints 
 -**0_preprocessing** 
 -**1_KMeans** 
     - Dimensionsreduktion 
