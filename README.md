@@ -1,9 +1,9 @@
 # Clustering
 
 
-Herzlich Willkommen in unserem GitHub-Repository
+Herzlich Willkommen in unserem GitHub-Repository!
 
-Der Datensatz und die verschiedenen Clustering-Verfahren sind in Ordner unterteilt und wie folgt aufgebaut:
+Der Datensatz und die verschiedenen Clustering-Verfahren sind in Ordner unterteilt und folgendermaßen aufgebaut:
 
 ### **Literatur**
 -	HC: hier werden die Beziehungen zwischen den Genres und Künstlern erklärt, die für die Erklärung der Ausreißer benötigt wurden
