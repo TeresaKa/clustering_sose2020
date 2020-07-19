@@ -71,33 +71,33 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
         - song_decades_long- Genres 
     - 4_K-Means -- gif 
     - 5_K-Means --decades 
--	**Preprocessing** 
+-**Preprocessing** 
 
 ### **Notebooks**: 
--	.ipynb_checkpoints 
--	**0_preprocessing** 
--	**1_KMeans** 
+-	-.ipynb_checkpoints 
+-**0_preprocessing** 
+-**1_KMeans** 
     - Dimensionsreduktion 
-        - umap
+         - umap
     - Implementierung_K-Means 
     - K_Means 
--	**2_SVM** 
-    - SVM_KM 
--	**3_HC** 
--	**4_GMM**
--	**5_DBScan** 
--	**6_TopicModeling**
+- **2_SVM** 
+      - SVM_KM 
+- **3_HC** 
+- **4_GMM**
+- **5_DBScan** 
+- **6_TopicModeling**
     - mallet_text
--	**7_AutoEncoder**
--	Final AutoEncoder 
--	**Clustering_Verfahren .ipynb** 
+-**7_AutoEncoder**
+	- Final AutoEncoder 
+	- **Clustering_Verfahren .ipynb** 
 
 
--	.gitattributes
--   Aufgabenverteilung.txt
--   Clustering_Abschlusspräsi.pdf
--   README.md
--   vorläufige_Präsentation.pdf
+-.gitattributes
+-  Aufgabenverteilung.txt
+- Clustering_Abschlusspräsi.pdf
+-README.md
+-vorläufige_Präsentation.pdf
  
 
 
