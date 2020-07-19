@@ -95,13 +95,13 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 
 -.gitattributes
 
--Aufgabenverteilung.txt
+-Aufgabenverteilung
 
--Clustering_Abschlusspräsi.pdf
+-Clustering_Abschlusspräsi
 
 -README.md
 
--vorläufige_Präsentation.pdf
+-vorläufige_Präsentation
  
 
 
