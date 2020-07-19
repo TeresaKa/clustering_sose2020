@@ -92,11 +92,16 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
     - K_Means 
 - ### **2_SVM** 
     - SVM_KM 
+    - Ergebnisse
 - ### **3_HC** 
+	- Ergebnisse
 - ### **4_GMM**
+	-Ergebnisse
 - ### **5_DBScan** 
+	- Ergebnisse
 - ### **6_TopicModeling**
    	 - mallet_text
+	 -Ergeebnisse
 - ### **7_AutoEncoder**
 	 - Final AutoEncoder 
 	 - **Clustering_Verfahren .ipynb** 
