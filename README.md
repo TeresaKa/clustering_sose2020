@@ -74,9 +74,9 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 - **Preprocessing** 
 
 ### **Notebooks**: 
-	-.ipynb_checkpoints 
--**0_preprocessing** 
--**1_KMeans** 
+- .ipynb_checkpoints 
+- **0_preprocessing** 
+- **1_KMeans** 
     - Dimensionsreduktion 
          - umap
     - Implementierung_K-Means 
@@ -88,16 +88,16 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 - **5_DBScan** 
 - **6_TopicModeling**
    	 - mallet_text
--**7_AutoEncoder**
-	- Final AutoEncoder 
-	- **Clustering_Verfahren .ipynb** 
+- **7_AutoEncoder**
+	 - Final AutoEncoder 
+	 - **Clustering_Verfahren .ipynb** 
 
 
 -.gitattributes
 
-- Aufgabenverteilung.txt
+-Aufgabenverteilung.txt
 
-- Clustering_Abschlusspräsi.pdf
+-Clustering_Abschlusspräsi.pdf
 
 -README.md
 
