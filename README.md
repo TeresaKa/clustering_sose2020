@@ -7,17 +7,17 @@ Der Datensatz und die verschiedenen Clustering-Verfahren sind in Ordner untertei
 
 *In allen Ordnern und Unterordnern sind zu den jeweiligen Verfahren auch die Ergebnisse vorhanden.*
 
-### **Literatur**
+## **Literatur**
 -	HC: hier werden die Beziehungen zwischen den Genres und Künstlern erklärt, die für die Erklärung der Ausreißer benötigt wurden
 -	Visualization_in_Stylometry
 -	Topic-modelling-with-scikitlearn
 
-### **datasets**
+## **datasets**
 In diesem Ordner befindet sich der alte und der neue Datensatz.
 
-- **Currently_dataset** 
+- ### **Currently_dataset** 
     - song_decades_long.csv
--	**Old_datasets**
+- ### **Old_datasets**
     - Datenexploration_1
       -	pop_genre1_2.csv 
       - rock_genre1_2.csv 
@@ -35,10 +35,10 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
         - songdata.xlsx 
         - songs_decades.csv 
         - songs_plus_dates.csv  
-- **datasets_info**
+- ### **datasets_info**
 
-### **Images** 
-- **Bilder_Abschlusspräsi** 
+## **Images** 
+- ### **Bilder_Abschlusspräsi** 
     - AutoEncoder 
     - GMM 
     - HC
@@ -48,7 +48,7 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
     - preprocessing 
     - type_token
     - wordclouds 
- - **Dataexploration_1** 
+ - ### **Dataexploration_1** 
     - 1_number_of_songs 
     - 2_wordsclouds 
         - wordclouds_by_artist 
@@ -57,61 +57,60 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
     - 5_type_token 
     - 6_length_of_songs
     - song_decades_long 
-- **Dataexploration_2** 
+- ### **Dataexploration_2** 
     - 2_Visualisierung 
          - Genres 
     - 3_common_words 
         - POS
         - text 
-- **Dimensionsreduktion**
+- ### **Dimensionsreduktion**
     - PCA 
         - MDS
     - T-SNE 
         - song_decades_long
     - UMAP 
-- **GMM** 
+- ### **GMM** 
     - song_decades_long
-- **HC** 
+- ### **HC** 
     - song_decades_long
-- **K-Means/K_Means** 
+- ### **K-Means/K_Means** 
     - 1_K-Means -- versch. Implementierungen 
     - 2_K-Means -- minibatch 
     - 3_K-Means -- Genres
-        - song_decades_long
-	- Genres 
+        - song_decades_long 
     - 4_K-Means -- gif 
     - 5_K-Means --decades 
-- **Preprocessing** 
+- ### **Preprocessing** 
 
-### **Notebooks**: 
+## **Notebooks**: 
 - .ipynb_checkpoints 
-- **0_preprocessing** 
-- **1_KMeans** 
+- ### **0_preprocessing** 
+- ### **1_KMeans** 
     - Dimensionsreduktion 
          - umap
     - Implementierung_K-Means 
     - K_Means 
-- **2_SVM** 
+- ### **2_SVM** 
     - SVM_KM 
-- **3_HC** 
-- **4_GMM**
-- **5_DBScan** 
-- **6_TopicModeling**
+- ### **3_HC** 
+- ### **4_GMM**
+- ### **5_DBScan** 
+- ### **6_TopicModeling**
    	 - mallet_text
-- **7_AutoEncoder**
+- ### **7_AutoEncoder**
 	 - Final AutoEncoder 
 	 - **Clustering_Verfahren .ipynb** 
 
 
--.gitattributes
+.gitattributes
 
--Aufgabenverteilung
+Aufgabenverteilung
 
--Clustering_Abschlusspräsi
+Clustering_Abschlusspräsi
 
--README.md
+README.md
 
--vorläufige_Präsentation
+vorläufige_Präsentation
  
 
 Viel Spaß! :) 
