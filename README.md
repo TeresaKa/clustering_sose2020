@@ -77,20 +77,18 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 -	.ipynb_checkpoints 
 -	**0_preprocessing** 
 -	**1_KMeans** 
-o	Dimensionsreduktion 
-	umap
-
-o	Implementierung_K-Means 
-o	K_Means 
+    - Dimensionsreduktion 
+        - umap
+    - Implementierung_K-Means 
+    - K_Means 
 
 -	**2_SVM** 
-o	SVM_KM 
--	
+    - SVM_KM 
 -	**3_HC** 
 -	**4_GMM**
 -	**5_DBScan** 
 -	**6_TopicModeling**
-o	mallet_text
+    - mallet_text
 -	**7_AutoEncoder**
 -	Final AutoEncoder 
 -	Clustering_Verfahren .ipynb 
@@ -98,9 +96,9 @@ o	mallet_text
 -	word_embedding.ipynb 
 
 
-.gitattributes
-Aufgabenverteilung
-README.md
+- .gitattributes
+- Aufgabenverteilung
+- README.md
 
 
 
