@@ -44,7 +44,7 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
     - HC
     - SVM
     - TopicModelling
-	- *lda.html Datei*
+    	- **lda.html Datei**
     - preprocessing 
     - type_token
     - wordclouds 
@@ -78,7 +78,7 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
     - 2_K-Means -- minibatch 
     - 3_K-Means -- Genres
         - song_decades_long
-		- Genres 
+	- Genres 
     - 4_K-Means -- gif 
     - 5_K-Means --decades 
 - **Preprocessing** 
