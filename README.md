@@ -5,6 +5,8 @@ Herzlich Willkommen in unserem GitHub-Repository!
 
 Der Datensatz und die verschiedenen Clustering-Verfahren sind in Ordner unterteilt und folgendermaßen aufgebaut:
 
+*In allen Ordnern und Unterordnern sind zu den jeweiligen Verfahren auch die Ergebnisse vorhanden.*
+
 ### **Literatur**
 -	HC: hier werden die Beziehungen zwischen den Genres und Künstlern erklärt, die für die Erklärung der Ausreißer benötigt wurden
 -	Visualization_in_Stylometry
@@ -36,50 +38,31 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 - **datasets_info**
 
 ### **Images** 
--	**Bilder_Abschlusspräsi** 
+- **Bilder_Abschlusspräsi** 
     - AutoEncoder 
-    	- Ergebnisse
     - GMM 
-    	- Ergebnisse
     - HC
-    	- Ergebnisse
     - SVM
-    	- Ergebnisse
     - TopicModelling
-    	- Ergebnisse
 	- *lda.html Datei*
     - preprocessing 
-    	- Ergebnisse
     - type_token
-    	- Ergebnisse
     - wordclouds 
-    	- Ergebnisse
  - **Dataexploration_1** 
     - 1_number_of_songs 
-    	- Ergebnisse
     - 2_wordsclouds 
         - wordclouds_by_artist 
-	  	- Ergebnisse
-        - wordclouds_by_genre 
-		 - Ergebnisse 
+        - wordclouds_by_genre
     - 3_number_of_words 
-    	- Ergebnisse
     - 5_type_token 
-    	- Ergebnisse
     - 6_length_of_songs
-    	- Ergebnisse
     - song_decades_long 
-    	- Ergebnisse
 - **Dataexploration_2** 
     - 2_Visualisierung 
-         - Genres
-	 	- Ergebnisse 
-	 - Ergebnisse 
+         - Genres 
     - 3_common_words 
-        - POS 
-		- Ergebnisse
+        - POS
         - text 
-		-Ergebnisse
 - **Dimensionsreduktion**
     - PCA 
         - MDS
@@ -94,7 +77,8 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
     - 1_K-Means -- versch. Implementierungen 
     - 2_K-Means -- minibatch 
     - 3_K-Means -- Genres
-        - song_decades_long- Genres 
+        - song_decades_long
+		- Genres 
     - 4_K-Means -- gif 
     - 5_K-Means --decades 
 - **Preprocessing** 
