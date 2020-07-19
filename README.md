@@ -96,12 +96,12 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 - ### **3_HC** 
 	- Ergebnisse
 - ### **4_GMM**
-	-Ergebnisse
+	- Ergebnisse
 - ### **5_DBScan** 
 	- Ergebnisse
 - ### **6_TopicModeling**
    	 - mallet_text
-	 -Ergeebnisse
+	 - Ergebnisse
 - ### **7_AutoEncoder**
 	 - Final AutoEncoder 
 	 - **Clustering_Verfahren .ipynb** 
