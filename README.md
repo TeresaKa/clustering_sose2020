@@ -33,6 +33,8 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
         - songdata.xlsx 
         - songs_decades.csv 
         - songs_plus_dates.csv  
+- **datasets_info**
+
 ### **Images** 
 -	**Bilder_Abschlusspräsi** 
     -	AutoEncoder 
