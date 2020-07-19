@@ -91,13 +91,12 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 -	**7_AutoEncoder**
 -	Final AutoEncoder 
 -	**Clustering_Verfahren .ipynb** 
--	Final AutoEncoder 
--	word_embedding.ipynb 
+-	.gitattributes
+-   Aufgabenverteilung.txt
 -   Clustering_Abschlusspräsi.pdf
 -   README.md
--   vorläufige_Präsentation.pdf 
--   .gitattributes
--   Aufgabenverteilung
+-   vorläufige_Präsentation.pdf
+ 
 
 
 
