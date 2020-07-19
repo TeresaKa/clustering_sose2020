@@ -74,7 +74,7 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 -**Preprocessing** 
 
 ### **Notebooks**: 
--	-.ipynb_checkpoints 
+-.ipynb_checkpoints 
 -**0_preprocessing** 
 -**1_KMeans** 
     - Dimensionsreduktion 
@@ -87,16 +87,20 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 - **4_GMM**
 - **5_DBScan** 
 - **6_TopicModeling**
-    - mallet_text
+   	 - mallet_text
 -**7_AutoEncoder**
 	- Final AutoEncoder 
 	- **Clustering_Verfahren .ipynb** 
 
 
 -.gitattributes
--  Aufgabenverteilung.txt
+
+- Aufgabenverteilung.txt
+
 - Clustering_Abschlusspräsi.pdf
+
 -README.md
+
 -vorläufige_Präsentation.pdf
  
 
