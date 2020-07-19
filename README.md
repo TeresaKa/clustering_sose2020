@@ -37,25 +37,49 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 
 ### **Images** 
 -	**Bilder_Abschlusspräsi** 
-    -	AutoEncoder 
+    - AutoEncoder 
+    	- Ergebnisse
     - GMM 
+    	- Ergebnisse
+    - HC
+    	- Ergebnisse
+    - SVM
+    	- Ergebnisse
+    - TopicModelling
+    	- Ergebnisse
+	- *lda.html Datei*
     - preprocessing 
+    	- Ergebnisse
+    - type_token
+    	- Ergebnisse
     - wordclouds 
- -	**Dataexploration_1** 
-  	- 1_number_of_songs 
+    	- Ergebnisse
+ - **Dataexploration_1** 
+    - 1_number_of_songs 
+    	- Ergebnisse
     - 2_wordsclouds 
         - wordclouds_by_artist 
+	  	- Ergebnisse
         - wordclouds_by_genre 
+		 - Ergebnisse 
     - 3_number_of_words 
+    	- Ergebnisse
     - 5_type_token 
-    - 6_length_of_songs 
+    	- Ergebnisse
+    - 6_length_of_songs
+    	- Ergebnisse
     - song_decades_long 
--	**Dataexploration_2** 
+    	- Ergebnisse
+- **Dataexploration_2** 
     - 2_Visualisierung 
          - Genres
+	 	- Ergebnisse 
+	 - Ergebnisse 
     - 3_common_words 
         - POS 
+		- Ergebnisse
         - text 
+		-Ergebnisse
 - **Dimensionsreduktion**
     - PCA 
         - MDS
