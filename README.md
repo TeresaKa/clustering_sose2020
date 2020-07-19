@@ -82,7 +82,7 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
     - Implementierung_K-Means 
     - K_Means 
 - **2_SVM** 
-      - SVM_KM 
+    - SVM_KM 
 - **3_HC** 
 - **4_GMM**
 - **5_DBScan** 
