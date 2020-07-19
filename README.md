@@ -81,7 +81,6 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
         - umap
     - Implementierung_K-Means 
     - K_Means 
-
 -	**2_SVM** 
     - SVM_KM 
 -	**3_HC** 
@@ -91,14 +90,15 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
     - mallet_text
 -	**7_AutoEncoder**
 -	Final AutoEncoder 
--	Clustering_Verfahren .ipynb 
+-	**Clustering_Verfahren .ipynb** 
 -	Final AutoEncoder 
 -	word_embedding.ipynb 
+-   Clustering_Abschlusspräsi.pdf
+-   README.md
+-   vorläufige_Präsentation.pdf 
+-   .gitattributes
+-   Aufgabenverteilung
 
-
-- .gitattributes
-- Aufgabenverteilung
-- README.md
 
 
 
