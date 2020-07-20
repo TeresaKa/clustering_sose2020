@@ -87,7 +87,7 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
     - 5_K-Means --decades 
 - **Preprocessing** 
 
-### **Notebooks**: 
+### **Notebooks**
 - .ipynb_checkpoints 
 - **0_preprocessing** 
 - **1_KMeans** 
