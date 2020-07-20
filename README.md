@@ -39,6 +39,8 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 -	**Bilder_Abschlusspräsi** 
     - AutoEncoder 
     	- Ergebnisse
+    - Delta
+    	- Ergebnisse
     - GMM 
     	- Ergebnisse
     - HC
@@ -48,9 +50,10 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
     - TopicModelling
     	- Ergebnisse
 	- *lda.html*
-    - preprocessing 
-    - wordclouds 
- -	**Dataexploration_1** 
+    - preprocessing  
+    - type_token
+    - wordcoluds 
+ - **Dataexploration_1** 
   	- 1_number_of_songs 
     - 2_wordsclouds 
         - wordclouds_by_artist 
