@@ -101,6 +101,8 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
    	 - mallet_text
 - **7_AutoEncoder**
 	 - Final AutoEncoder 
+- **Delta**
+	- zscores 
 - **Clustering_Verfahren .ipynb** - **Pipeline für alle Verfahren**
 
 
