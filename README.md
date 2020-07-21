@@ -113,7 +113,7 @@ In diesem Ordner befindet sich der alte und der neue Datensatz.
 
 -Aufgabenverteilung
 
--Clustering_Abschlusspräsi
+-Clustering_Abschlusspräsentation
 
 -README.md
 
